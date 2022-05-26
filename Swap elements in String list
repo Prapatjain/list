@@ -1,0 +1,8 @@
+test_list = ['Gfg', 'is', 'best', 'for', 'Geeks']
+  
+print("The original list is : " + str(test_list))
+  
+res = ", ".join(test_list)
+res = res.replace("G", "_").replace("e", "G").replace("_", "e").split(', ')
+  
+print ("List after performing character swaps : " + str(res))
